@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="../CSS/adm.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-inner">
+            <h2>Meu Blog</h2>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+            <ul id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="../IMG/ADMINISTRACAO.JPG" alt="Administração">
+                <h3 class="title">A profissão</h3>
+                <p class="description">
+                    A profissão do administrador é importante em todas as áreas de atuação. Pela sua necessidade, em
+                    todas as empresas é imprescindível a
+                    presença desse profissional. É o profissional responsável pela articulação de elementos
+                    organizacionais internos e externos, mediante criação,
+                    manutenção e desenvolvimento de estruturas que possibilitem, por meio do gerenciamento estratégico,
+                    o progresso da organização.
+                </p>
+                <h3 class="title">A carreira</h3>
+                <p class="description">
+                    É vasta a quantidade de oportunidades que o administrador pode ter como opção. Esse profissional
+                    poderá atuar em diversas áreas,
+                    não só em administração de empresas, como também, em administração hospitalar, hoteleira, em área
+                    educacional, esportiva, financeira,
+                    recursos humanos, administração pública, vendas, entre outras. Além disso, o profissional de
+                    administração pode ocupar vários cargos,
+                    tais como: gerentes, analistas, supervisores e até presidentes.
+                </p>
+                <h3 class="title">O mercado de trabalho</h3>
+                <p class="description">
+                    É relativamente pequeno o índice de desemprego entre os formados em Administração, sendo que esses
+                    profissionais são procurados por empresas
+                    dos tipos fabris, comerciais, serviços e agronegócios e de praticamente, todas as áreas, como lazer,
+                    educação e turismo.
+                </p>
+            </article>
+            <article class="post">
+                <img class="imagem" src="../IMG/adm.tecnico.jpg" alt="Logo Administração">
+                <h3 class="title">Tipos de cursos técnicos</h3>
+                <p class="description">No Brasil, existem algumas categorias de cursos técnicos. As principais são os
+                    cursos técnicos
+                    integrado e o curso técnico externo (ou concomitante) ao ensino médio. O curso técnico
+                    integrado contempla, de certo modo, o Ensino Médio e pode ser iniciado somente após a
+                    conclusão do Ensino Fundamental. Ao finalizá-lo, o estudante recebe um certificado de
+                    conclusão do Ensino Médio, além de receber também um diploma na formação técnica escolhida.
+                    Por isso, eles não possuam um limite máximo de idade; apenas a limitação dos
+                    certificados dos
+                    anos fundamentais e médios da escola.
+                </p>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Buscar</h4>
+                <form>
+                    <input type="text" name="busca" id="busca" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Catergorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="informatica.html">Técnico em Informática</a></li>
+                        <li><a href="logistica.html">Logística</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>As melhores dicas sobre cursos técnicos</p>
+        <p>2026 &copy</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

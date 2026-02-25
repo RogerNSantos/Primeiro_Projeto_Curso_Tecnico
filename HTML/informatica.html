@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática</title>
+    <link rel="stylesheet" href="../CSS/informática.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-inner">
+            <h2>Meu Blog</h2>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+            <ul id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="../IMG/informatica01.jpg" alt="Técnico em TI">
+                <h3 class="title">Curso de Informática essencial para todos</h3>
+                <p class="description">
+                    O curso de “INFORMÁTICA ESSENCIAL PARA TODOS” foi desenvolvido pensando nas reais necessidades de um
+                    aluno iniciante.
+                    Neste curso, o aluno aprende o essencial da informática de uma forma prática e produtiva, através de
+                    exemplos completos.
+                    Dividido em sete cursos, o curso apresenta recursos básicos, intermediários e avançados, porém, de
+                    forma didática, e com o objetivo final de
+                    capacitá-lo a utilizar um sistema operacional, construir documentos e planilhas inteligentes,
+                    navegar na internet, enviar e receber e-mail,
+                    antivírus, scanner, criar apresentações e também a trabalhar com banco de dados entre outras
+                    habilidades.
+                </p>
+
+                <h3 class="title">Conteúdo programático</h3>
+                <p class="description"></p>
+                <p>Windows essencial - Access essencia</p>
+                <p>Word essencial - Internet essencial</p>
+                <p>Excel essencial Ferramentas essencia</p>
+                <p>Excel avançado - Ferramentas essencial</p>
+
+                <h3 class="title">Matéria e carga horária</h3>
+                <p class="description">
+                <p>Carga horária média: 81 horas.</p>
+                <p>Pré-requisitos: não há pré-requisitos.</P>
+                <p>A quem se destina: Destina-se a qualquer pessoa que deseja aprender habilidades essenciais de
+                    informática para uso no dia-a-dia.</p>
+                <p>Objetivo: Objetivo principal é dotar os qualificados de conhecimentos que os tornem capazes de
+                    desempenhar funções essenciais no
+                    Windows e nos aplicativos mais utilizados da área de informática.
+                <p>
+                <p>Técnicas didáticas: 7 simuladores e 4 apostilas.</p>
+                </p>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Buscar</h4>
+                <form>
+                    <input type="text" name="busca" id="busca" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Catergorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="adm.html">Técnico em Administração</a></li>
+                        <li><a href="logistica.html">Logística</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>As melhores dicas sobre cursos técnicos</p>
+        <p>2026 &copy</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

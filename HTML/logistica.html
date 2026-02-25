@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logística</title>
+    <link rel="stylesheet" href="../CSS/logistica.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-inner">
+            <h2>Meu Blog</h2>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="../IMG/tec.logistica.jpg" alt="Galpão de logistica">
+                <h3 class="title">Você sabe o que faz um profissional de Logística?</h3>
+                <p class="description">
+                    Essa pessoa é responsável por organizar processos e buscar soluções para um trabalho mais efetivo e
+                    de qualidade dentro de uma empresa.
+                    O mercado de trabalho para a área de Logística vem crescendo cada vez mais e criando uma grande
+                    demanda por profissionais da área.
+                    Afinal, eficiência e organização são valores buscados em todos os setores da economia, desde
+                    pequenas até grandes empresas.
+                    Existem muitos tipos de serviços de Logística e, por isso, as disciplinas de um curso de Logística
+                    buscam atender a todas as necessidades
+                    da rotina de trabalho desse profissional! Conheça um pouco mais sobre a faculdade de Logística a
+                    seguir.</P>
+
+                <h3 class="title">As disciplinas do curso de Logística</h3>
+                <p class="description">
+                    O curso de Logística pode ser encontrado em diferentes titulações: técnico, tecnólogo e bacharel. As
+                    duas últimas são cursos de nível superior e,
+                    por isso, os dois têm o mesmo valor no mercado de trabalho.
+                    A grande diferença está no tempo. O curso Tecnólogo dura de dois a três anos, enquanto o bacharel
+                    dura quatro anos, em média. Além disso,
+                    o primeiro tende a ser mais prático e voltado ao mercado de trabalho. Para quem quer estudar
+                    Logística, há cursos 100% online (a distância),
+                    semipresenciais e presenciais, sendo os dois primeiros indicados para quem precisa conciliar
+                    estudos, trabalho e, muitas vezes, família.
+                    Mesmo com algumas diferenças, ambos os cursos apresentam grade curricular muito semelhante.
+                </p>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Buscar</h4>
+                <form>
+                    <input type="text" name="busca" id="busca" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Catergorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="adm.html">Técnico em Administração</a></li>
+                        <li><a href="informatica.html">Técnico em Informática</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>As melhores dicas sobre cursos técnicos</p>
+        <p>2026 &copy</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
